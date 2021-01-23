@@ -83,13 +83,20 @@ model = tf.keras.Sequential([
 
 Previously with just dense layers, the prediction accuracy was 88%.  Now with convolution and max pooling, the accuracy is nearly 98%.
 
+### ELI5 CNNs
+See [A Comprehensive Guide to CNNs](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
+
+"The objective of the Convolution Operation is to extract the high-level features such as edges, from the input image. ConvNets need not be limited to only one Convolutional Layer. Conventionally, the first ConvLayer is responsible for capturing the Low-Level features such as edges, color, gradient orientation, etc. With added layers, the architecture adapts to the High-Level features as well, giving us a network which has the wholesome understanding of images in the dataset, similar to how we would."
+
 ### Next steps
-* Perform the exercises from the CoLab
-* Review [A Comprehensive Guide to CNNs](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
 * Lesson 5: Going Further with CNNs
 
 ## Sample Code
-To be completed
+This sample code is just a copy & paste from the CoLab.
+
+Perhaps a valuable future exercise would be to identify certain elements on map data.  For example, we could train a model to identify houses, cars, and trees.
+
+Alternatively, it may be useful to create a handwriting recognition tool for my own writing.
 
 ### System Requirements
 
